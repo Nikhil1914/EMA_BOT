@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+altair
+websocket-client
+fyers-apiv3
