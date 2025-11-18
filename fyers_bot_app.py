@@ -69,11 +69,11 @@ if start_button:
     LIVE_STATE["product"] = product_type
 
     start_live_engine(symbol, resolution)
-    st.experimental_rerun()
+    st.rerun()
 
 if stop_button:
     stop_live_engine()
-    st.experimental_rerun()
+    st.rerun()
 
 
 # ====================== STATUS & LOG DISPLAY ======================
@@ -115,3 +115,4 @@ st.json(state_display)
 # ================== ADD FOOTER ==================
 st.markdown("---")
 st.caption("Powered by Fyers WebSocket API | Fully Automated | Nikhil")
+
